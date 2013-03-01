@@ -1,4 +1,26 @@
-qmmm_gpu
-========
-
 The GPU Optimized QMMM Library
+
+-------Introduction-------
+
+The home of this project is https://github.com/enmik/qmmm_gpu, downloading source code from any other location is not recommended.
+
+This code was developed as a case study in the scalalife project, www.scalalife.eu. 
+
+A report/presentation for the library can be found at http://www.scalalife.eu/content/qmmm-gpus
+
+A guide for how to use this from Dalton can be found at: http://www.scalalife.eu/content/portable-gpu-libary-qm-mm-calculations
+
+
+------- Requirements-------
+Cuda 4.2 (later versions are probably fine, but 4.2 was used during development).
+GCC 4.4.7 (later versions are probably fine, but 4.4.7 was used during development).
+
+
+-------How to compile------
+Use make
+
+The makefile
+
+Works with Cuda version 4.2 and GCC 4.4.7
+
+* To compile use make
